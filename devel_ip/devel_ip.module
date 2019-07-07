@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains devel_ip.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function devel_ip_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the devel_ip module.
+    case 'help.page.devel_ip':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Devel IP module for restrict IP&#039;s.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

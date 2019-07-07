@@ -1,0 +1,5 @@
+deve_ip.admin.config.form:
+  title: 'IP List'
+  description: 'Ip settings'
+  route_name: devel_ip.config_form
+  parent: system.admin_config_development

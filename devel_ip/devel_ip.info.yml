@@ -1,0 +1,7 @@
+name: 'Devel IP'
+type: module
+description: 'Devel IP module for restrict IP.'
+dependencies:
+  - devel
+core: 8.x
+package: 'Custom'

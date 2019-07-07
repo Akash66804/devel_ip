@@ -1,0 +1,7 @@
+devel_ip.config_form:
+  path: '/admin/config/development/devel-ip/config-form'
+  defaults:
+    _form: '\Drupal\devel_ip\Form\DevelIpForm'
+    _title: 'Devel IP Form'
+  requirements:
+    _permission: 'administer site configuration'

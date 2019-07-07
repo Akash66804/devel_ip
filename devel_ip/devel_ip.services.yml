@@ -1,0 +1,6 @@
+services:
+  devel_ip.routingaccess:
+    class: Drupal\devel_ip\Routing\RoutingAccess
+    tags:
+      - { name: event_subscriber }
+
